@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    display:block;
+    min-height: 100vh;
+    margin: 20px;
+    background:whitesmoke;
+}
+
+.filter-box{
+    width:100%;
+    max-width: 1500px;
+    border:none;
+    padding:20px;
+    border-radius:15px;
+    background: white;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+#sub-ttl{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px ;
+}
+
+.filter-opt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px 20px;
+}
+
+.field{
+    display:flex;
+    flex-direction: column; 
+    position: relative;
+}
+
+.field label{
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background: white;
+    padding: 0 5px;
+    font-size: 14px;
+    color: black;
+}
+
+.field select{
+    padding: 10px;
+    border-radius: 6px;
+    background: transparent;
+    outline: none;
+   
+}
+
+select{
+    color:black;
+}
+
+select:invalid{
+    color:grey;
+}
+
+#search-btn{
+    border:none;
+    border-radius:8px;
+    background:Green;
+    color:white;
+    cursor:pointer;
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+    background: white;
+}
+
+th,td{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+
+}
+
+#result-btn{
+    border:none;
+    border-radius: none;
+    padding:5px;
+    background:Green;
+    color:white;
+}
+

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Data Table</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+<body>
+
+    <h1 id="title">Student Data Table</h1>
+
+    <div class="filter-box">
+        <span id="sub-ttl">Filter Student Table By:</span>
+
+        <div class="filter-opt">
+            <div class="field">
+            <label for="age">Age</label>
+            <select id="age" name="age" required>
+                <option value="" disabled selected>Select Age</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+            </select>
+            </div>
+
+            <div class="field">
+            <label for="provience">Provience</label>
+            <select id="Provience" name="provience" required>
+                <option value="" disabled selected>Select Provience</option>
+                <option value="Bagmati">Bagmati</option>
+                <option value="Karnali">Karnali</option>
+                <option value="Lumbini">Lumbini</option>
+                <option value="Sudhur">Sudhur</option>
+                <option value="Koshi">Koshi</option>  
+            </select>
+            </div>
+
+            <div class="field">
+            <label for="level">Level</label>
+            <select id="level" name="level" required>
+                <option value="" disabled selected>Select Level</option>
+                <option value="1st sem">100 level</option>
+                <option value="2nd sem">200 level</option>
+                <option value="3rd sem">300 level</option>
+                <option value="4th sem">400 level</option>
+            </select>
+            </div>
+
+            <div class="field">
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>Select a Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            </div>
+            
+            <button type="submit" id="search-btn" >Search</button>
+
+        </div>
+
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>S/N</th>
+                <th>Surname</th>
+                <th>First Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>level</th>
+                <th>Provience</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Jha</td>
+                <td>Rabi</td>
+                <td>23</td>
+                <td>Male</td>
+                <td>100 level</td>
+                <td>Bagmati</td>
+                <td>
+                    <button type="button" id="result-btn">Download Result</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>01</td>
+                <td>Jha</td>
+                <td>Rabi</td>
+                <td>23</td>
+                <td>Male</td>
+                <td>100 level</td>
+                <td>Bagmati</td>
+                <td>
+                    <button type="button" id="result-btn">Download Result</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>01</td>
+                <td>Jha</td>
+                <td>Rabi</td>
+                <td>23</td>
+                <td>Male</td>
+                <td>100 level</td>
+                <td>Bagmati</td>
+                <td>
+                    <button type="button" id="result-btn">Download Result</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>01</td>
+                <td>Jha</td>
+                <td>Rabi</td>
+                <td>23</td>
+                <td>Male</td>
+                <td>100 level</td>
+                <td>Bagmati</td>
+                <td>
+                    <button type="button" id="result-btn">Download Result</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>01</td>
+                <td>Jha</td>
+                <td>Rabi</td>
+                <td>23</td>
+                <td>Male</td>
+                <td>100 level</td>
+                <td>Bagmati</td>
+                <td>
+                    <button type="button" id="result-btn">Download Result</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>01</td>
+                <td>Jha</td>
+                <td>Rabi</td>
+                <td>23</td>
+                <td>Male</td>
+                <td>100 level</td>
+                <td>Bagmati</td>
+                <td>
+                    <button type="button" id="result-btn">Download Result</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
