@@ -73,6 +73,11 @@ select:invalid{
     background:Green;
     color:white;
     cursor:pointer;
+    transition:0.1s;
+}
+
+#search-btn:active{
+    transform:scale(0.95);
 }
 
 .table-wrap{
@@ -84,7 +89,6 @@ select:invalid{
 
 table{
     width: 100%;
-    overflow-y: auto;
     border-collapse:collapse;
     background: white;
 }
@@ -96,12 +100,17 @@ th,td{
 
 }
 
-
+thead th{
+    position:sticky;
+    top:0;
+    background: white;
+    z-index:1;
+}
 
 .result-btn{
     border:none;
-    border-radius: none;
     padding:5px;
     background:Green;
     color:white;
+    cursor:pointer;
 }
